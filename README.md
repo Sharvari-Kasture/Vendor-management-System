@@ -36,17 +36,29 @@ API Endpoints
 Vendors
 
 GET /api/vendors/: List all vendors.
+
 POST /api/vendors/: Create a new vendor.
+
 GET /api/vendors/{vendor_id}/: Retrieve details of a specific vendor.
+
 PUT /api/vendors/{vendor_id}/: Update a vendor's details.
+
 DELETE /api/vendors/{vendor_id}/: Delete a vendor.
+
 GET /api/vendors/{vendor_id}/performance: Retrieve a vendor's performance metrics.
+
 
 Purchase Orders
 
 GET /api/purchase_orders/: List all purchase orders.
+
 POST /api/purchase_orders/: Create a new purchase order.
+
 GET /api/purchase_orders/{po_id}/: Retrieve details of a specific purchase order.
+
 PUT /api/purchase_orders/{po_id}/: Update a purchase order.
+
 DELETE /api/purchase_orders/{po_id}/: Delete a purchase order.
+
 POST /api/purchase_orders/{po_id}/acknowledge: Acknowledge a purchase order.
+
